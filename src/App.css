@@ -1,0 +1,26 @@
+/* 전체 화면 스타일 */
+.outer-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+
+/* 내부 컨테이너 스타일 */
+.inner-container {
+  width: 393px;
+  height: 100%;
+  background-color: white;
+  position: relative;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.inner-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.inner-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
